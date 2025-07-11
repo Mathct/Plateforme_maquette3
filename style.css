@@ -281,3 +281,14 @@ input, textarea{
     bottom: 0;
     right: 0;
 }
+
+.button{
+    width: 30px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
