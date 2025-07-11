@@ -1,3 +1,4 @@
+///// EXERCICE TYPO DYNAMIQUE
 
 ///// PX
 
@@ -14,7 +15,6 @@ function setPxValue(value) {
     spanPx.style.fontSize = value + "px";
 }
 
-// écouteurs d'événements
 btnPlusPx.addEventListener("click", () => {
     let value = getPxValue();
     setPxValue(value + 1);
@@ -40,7 +40,6 @@ function setPourValue(value) {
     spanPour.style.fontSize = value + "%";
 }
 
-// écouteurs d'événements
 btnPlusPour.addEventListener("click", () => {
     let value = getPourValue();
     setPourValue(value + 10);
@@ -66,7 +65,6 @@ function setEmValue(value) {
     spanEm.style.fontSize = value + "em";
 }
 
-// écouteurs d'événements
 btnPlusEm.addEventListener("click", () => {
     let value = getEmValue();
     setEmValue(value + 1);
@@ -93,7 +91,6 @@ function setRemValue(value) {
     spanRem.style.fontSize = value + "rem";
 }
 
-// écouteurs d'événements
 btnPlusRem.addEventListener("click", () => {
     let value = getRemValue();
     setRemValue(value + 0.1);
