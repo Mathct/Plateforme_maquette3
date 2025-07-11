@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+main{
+
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.icon{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('assets/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 20vh;
+    padding: 20px;
+}
+
+
+
+nav{
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+ 
+    
+
+    
+}
+
+
+nav a {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+  color: white
+}
+
+.section{
+    background-color: white;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.image{
+    width: 20%;
+}
+
+.section > div > img{
+    border-radius: 8px;
+}
+
+article{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    
+}
+
+.sectiontypo article{
+    gap: 50px;
+    width: 100%;
+}
+
+footer{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+footer p {
+    color: rgb(193, 187, 187);
+}
+
+footer a {
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(7, 142, 226)
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+  color: rgb(255, 255, 255)
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px
+    
+
+    
+}
+
+article a{
+    color: white;
+    background-color: black;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+article a:hover {
+    text-decoration: none;
+}
+
+.sectiontypo{
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.ligne {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+.gray {
+  color: gray;
+  min-width: 30%;
+}
+
+.black {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  background-color: rgb(210, 208, 208);
+  padding: 10px;
+  border-radius: 8px;
+  
+}
+
+#px{
+    font-size: 32px;
+}
+
+#pour{
+    font-size: 150%;
+}
+
+#em{
+    font-size: 2em;
+}
+
+#rem{
+    font-size: 2.5rem;
+}
+
+.sectionform{
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+form{
+    width: 80%;
+}
+input, textarea{
+    width: 100%
+}
+
+#boutonform{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 14px;
+    border: none;
+}
+
+.sectionposition {
+    width: 300px;
+    height: 170px;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+.carrerelative {
+    position: relative;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+.carreabsolute {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    
+}
+
+#carre1 {
+    bottom: 0;
+    right: 0;
+}
+
+#carre2 {
+    top: 0;
+    right: 0;
+}
+
+#carre3 {
+    bottom: 0;
+    left: 0;
+}
+
+#carre4 {
+    top: 40px;
+    left: 40px
+}
+
+#carre5{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#carre6 {
+    bottom: 0;
+    right: 0;
+}
